@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    /* 1.重置样式 */
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      list-style: none;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    /* 2.版心 */
+    .wrapper {
+      width: 1000px;
+      margin: auto;
+    }
+
+    /* 3.模拟页面盒子 */
+    .box {
+      border: 10px solid #000;
+      height: 500px;
+      text-align: center;
+      line-height: 500px;
+      font-size: 100px;
+    }
+
+    /* 4.模拟侧边导航栏 */
+    li {
+      width: 50px;
+      height: 50px;
+      border: 1px solid blue;
+    }
+
+    li a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      line-height: 50px;
+    }
+
+    /* 5.定位效果 */
+    ul {
+      position: fixed;
+      top: 200px;
+      /* 让元素永远处于页面中心 */
+      left: 50%;
+      /* 版心宽度的一半+自身的宽度 */
+      margin-left: -550px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- 模拟页面盒子 -->
+  <!-- div.wrapper>div.box{box$}*10 -->
+  <div class="wrapper">
+    <div class="box">box1</div>
+    <div class="box">box2</div>
+    <div class="box">box3</div>
+    <div class="box">box4</div>
+    <div class="box">box5</div>
+    <div class="box">box6</div>
+    <div class="box">box7</div>
+    <div class="box">box8</div>
+    <div class="box">box9</div>
+    <div class="box">box10</div>
+  </div>
+  <!-- 模拟侧边导航栏 -->
+  <!-- ul>li*10>a{$} -->
+  <ul>
+    <li><a href="">1</a></li>
+    <li><a href="">2</a></li>
+    <li><a href="">3</a></li>
+    <li><a href="">4</a></li>
+    <li><a href="">5</a></li>
+    <li><a href="">6</a></li>
+    <li><a href="">7</a></li>
+    <li><a href="">8</a></li>
+    <li><a href="">9</a></li>
+    <li><a href="">10</a></li>
+  </ul>
+</body>
+
+</html>
