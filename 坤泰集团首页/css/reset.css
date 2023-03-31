@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+b,
+strong {
+  font-weight: normal;
+}
+
+i,
+em {
+  font-style: normal;
+}
+
+a,
+s,
+u,
+del {
+  text-decoration: none;
+}
+
+body {
+  font-size: 16px;
+  font-family: "微软雅黑";
+}
+
+img {
+  vertical-align: middle;
+}
+
+.wrapper {
+  width: 940px;
+  margin: auto;
+}
