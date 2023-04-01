@@ -1,0 +1,252 @@
+/* 头部 */
+#header {
+  width: 100%;
+  height: 82px;
+  position: relative;
+}
+
+/* 居中logo */
+#header .logo {
+  width: 292px;
+  height: 82px;
+  text-align: center;
+  float: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -41px;
+  margin-left: -146px;
+}
+
+/* 右边文字 */
+#header .title {
+  width: 123px;
+  height: 17px;
+  float: right;
+}
+
+#header .title li {
+  float: left;
+  border-right: 2px solid #b89c99;
+}
+
+.title li a {
+  width: 60px;
+  font-size: 12px;
+  display: block;
+  color: #999999;
+  text-align: center;
+}
+
+#header .title .border0 {
+  border: 0;
+}
+
+#header .title ul {
+  margin-top: 56px;
+}
+
+/* 导航 */
+#nav {
+  width: 100%;
+  height: 40px;
+  border-top: 2px solid #c0a297;
+  border-bottom: 2px solid #c0a297;
+}
+
+#nav .daohang {
+  width: 822px;
+  height: 40px;
+  float: left;
+}
+
+#nav .daohang li {
+  float: left;
+  margin-right: 79px;
+}
+
+.daohang li a {
+  /* width: 58px; */
+  width: auto;
+  height: 40px;
+  display: block;
+  line-height: 40px;
+  text-align: center;
+  color: #9f9f9f;
+}
+
+#nav .daohang .margin0 {
+  margin: 0;
+}
+
+#nav .daohang .marginleft {
+  margin-left: 38px;
+}
+
+/* 搜索框 */
+#nav .search {
+  width: 180px;
+  height: 40px;
+  line-height: 40px;
+  float: right;
+
+}
+
+#nav .search input {
+  width: 176px;
+  height: 23px;
+  background-image: url(../images/icon.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  border-color: #cbcbcb;
+}
+
+/* 主体 */
+#main {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* banner */
+#banner {
+  width: 100%;
+  margin-top: 10px;
+}
+
+#banner img {
+  border-bottom: 10px solid #c0a398;
+}
+
+/* 图片框 */
+#main .imgbox {
+  width: 1004px;
+  height: 265px;
+  margin: 42px auto 70px;
+}
+
+#main .imgbox li {
+  float: left;
+  margin-right: 65px;
+}
+
+.imgbox li img {
+  display: block;
+}
+
+.imgbox li .img2 {
+  border: 10px solid #c0a398;
+  margin-top: 14px;
+}
+
+#main .imgbox .margin0 {
+  margin: 0;
+}
+
+/* 底部导航 */
+#bottom_nav {
+  width: 100%;
+  background-color: #f6f1ef;
+  overflow: hidden;
+  border-top: 2px solid #c0a398;
+}
+
+/* 左边列表 */
+#bottom_nav ul {
+  width: 132px;
+  float: left;
+  text-align: center;
+}
+
+#bottom_nav .list {
+  float: left;
+  margin-top: 29px;
+  margin-left: 47px;
+  margin-bottom: 33px;
+}
+
+#bottom_nav .list .margin0 {
+  margin: 0;
+}
+
+#bottom_nav .list li {
+  text-align: left;
+}
+
+.list li a {
+  height: 26px;
+  display: block;
+  font-size: 12px;
+  line-height: 26px;
+  color: #bc8d80;
+}
+
+.list li p {
+  font-size: 14px;
+}
+
+/* 右边图片 */
+#bottom_nav .right_img {
+  float: right;
+  margin-right: 66px;
+}
+
+/* 底部 */
+#footer {
+  width: 100%;
+  height: 41px;
+  background-color: #472b20;
+}
+
+/* 左边文案 */
+#footer .left {
+  width: 292px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  float: left;
+  color: #a88980;
+  font-size: 12px;
+}
+
+/* 右边文案 */
+#footer .right {
+  width: 358px;
+  height: 28px;
+  text-align: center;
+  float: right;
+  position: relative;
+}
+
+#footer .right ul {
+  position: absolute;
+  top: 50%;
+}
+
+#footer .right li {
+  float: left;
+  border-right: 2px solid #958980;
+}
+
+.right li a {
+  display: block;
+  width: 59px;
+  color: #af8d80;
+  font-size: 12px;
+}
+
+#footer .right .border0 {
+  border: 0;
+}
+
+/* 客服 */
+#kefu {
+  position: fixed;
+  top: 151px;
+  left: 50%;
+  margin-left: 521.5px;
+}
+
+#kefu img {
+  width: 149px;
+  height: 81px;
+}
