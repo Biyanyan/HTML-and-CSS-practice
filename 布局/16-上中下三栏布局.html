@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    /* 1.重置样式 */
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    /* 2.高度自适应 */
+    html,
+    body {
+      height: 100%;
+    }
+
+    /* 3.上中下布局 */
+    .top {
+      height: 100px;
+      background-color: pink;
+    }
+
+    .middle {
+      height: calc(100% - 100px - 100px);
+      background-color: aqua;
+    }
+
+    .bottom {
+      height: 100px;
+      background-color: red;
+    }
+
+    /* 4.左中右布局 */
+    .left {
+      width: 100px;
+      height: 100%;
+      background-color: yellow;
+      float: left;
+    }
+
+    .center {
+      width: calc(100% - 100px - 100px);
+      height: 100%;
+      background-color: orange;
+      float: left;
+    }
+
+    .right {
+      width: 100px;
+      height: 100%;
+      background-color: green;
+      float: right;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="top"></div>
+  <div class="middle">
+    <div class="left"></div>
+    <div class="center"></div>
+    <div class="right"></div>
+  </div>
+  <div class="bottom"></div>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    /* 1.重置样式 */
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    /* 2.高度自适应 */
+    html,
+    body {
+      height: 100%;
+    }
+
+    /* 3.左边导航栏 */
+    .left {
+      width: 200px;
+      height: 100%;
+      background-color: pink;
+      float: left;
+    }
+
+    /* 4.右边主要内容区域 */
+    .right {
+      width: calc(100% - 200px);
+      height: 100%;
+      background-color: blue;
+      float: right;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="left"></div>
+  <div class="right"></div>
+</body>
+
+</html>
+<!-- 
+  计算属性
+     用于动态计算数值 
+     calc(100% - 200px) 运算符号两边必须有空格
+ -->
