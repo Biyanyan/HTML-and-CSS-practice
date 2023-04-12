@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    /* 1.弹性布局 */
+    body {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    /* 2.盒子样式 */
+    .box {
+      /* 宽度不写 写在响应式里面 */
+      height: 300px;
+      border: 5px solid #000;
+      box-sizing: border-box;
+      margin: 10px;
+      text-align: center;
+      line-height: 300px;
+      font-size: 30px;
+    }
+
+    /* 3.响应式效果 */
+    /* <500 一行1个 */
+    @media screen and (max-width:500px) {
+      .box {
+        width: 95%;
+      }
+    }
+
+    /* 500-800 一行2个 */
+    @media screen and (min-width:500px) and (max-width:800px) {
+      .box {
+        width: 45%;
+      }
+    }
+
+    /* 800-1200 一行3个 */
+    @media screen and (min-width:800px) and (max-width:1200px) {
+      .box {
+        width: 30%;
+      }
+    }
+
+    /* >1200  一行4个 */
+    @media screen and (min-width:1200px) {
+      .box {
+        width: 22%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- 
+    <500 一行1个
+    500-800 一行2个
+    800-1200 一行3个
+    >1200  一行4个
+   -->
+  <!-- .box{响应式布局$}*10 -->
+</body>
+
+</html>
