@@ -1,0 +1,615 @@
+/* 头部 */
+header {
+  width: 100%;
+  height: 52px;
+  background-color: #3c3c3c;
+  line-height: 52px;
+}
+
+header ul {
+  float: left;
+}
+
+header ul .li1 {
+  width: 184px;
+  box-sizing: border-box;
+  text-indent: 66px;
+  position: relative;
+}
+
+header ul .li1 .img1 {
+  position: absolute;
+  top: 17px;
+  left: 10px;
+}
+
+header ul .li1 .img2 {
+  position: absolute;
+  top: 24px;
+  left: 176px;
+}
+
+header li {
+  float: left;
+  margin-right: 48px;
+  box-sizing: border-box;
+}
+
+header li a {
+  display: block;
+  height: 52px;
+  color: #cdcdcd;
+}
+
+header p {
+  float: right;
+}
+
+header p a {
+  font-size: 14px;
+  color: #cbcbcb;
+}
+
+header p span:nth-child(2) {
+  color: #737373;
+  font-size: 12px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* 主体 */
+main {
+  width: 100%;
+  height: calc(100% - 52px - 554px);
+}
+
+/* banner */
+main .banner {
+  width: 100%;
+  height: 282px;
+  background-color: #f5f5f5;
+  position: relative;
+}
+
+main .banner .div1 {
+  width: 375px;
+  height: 3px;
+  float: left;
+  background-color: #eeeeee;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-187px, 42px);
+}
+
+main .banner span {
+  font-size: 20px;
+  color: #8d8d8d;
+  font-style: italic;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  transform: translate(-53px, 30px);
+  width: 102px;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+main .banner img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* 第一部分 */
+main .sec1 {
+  width: 100%;
+  height: 763px;
+}
+
+/* 上边 */
+main .sec1 .top-sec {
+  width: 100%;
+  height: 86px;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding-top: 22px;
+}
+
+main .sec1 .top-sec .img1 {
+  margin-right: 227px;
+}
+
+main .sec1 .top-sec .img2 {
+  margin-left: 80px;
+}
+
+main .sec1 .top-sec .span1 {
+  font-size: 18px;
+  color: #f1edee;
+}
+
+/* 中间 banner*/
+main .sec1 .middle {
+  width: 100%;
+  height: 459px;
+}
+
+main .sec1 .middle img {
+  width: 100%;
+  height: 100%;
+}
+
+/* 下边图片盒子 */
+main .sec1 .bottom {
+  width: 100%;
+  height: 215px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+main .sec1 .bottom .box {
+  width: 20%;
+  height: 215px;
+  box-sizing: border-box;
+  display: flex;
+  padding-top: 56px;
+}
+
+main .sec1 .bottom .box .left {
+  width: 85px;
+  height: 100%;
+}
+
+main .sec1 .bottom .box .right {
+  flex: 1;
+  height: 100%;
+}
+
+main .sec1 .bottom .box .right .p1 {
+  font-size: 22px;
+  color: #444444;
+}
+
+main .sec1 .bottom .box .right .p2 {
+  font-size: 12px;
+  color: #9a9a9a;
+  margin-top: 5px;
+}
+
+/* 精选 */
+main .jingxuan {
+  width: 100%;
+  height: 1137px;
+}
+
+main .jingxuan p {
+  width: 100%;
+  font-size: 32px;
+  color: #787878;
+  text-align: center;
+}
+
+/* 中间 图片盒子 */
+main .jingxuan .imgbox {
+  width: 100%;
+  height: 884px;
+  margin-top: 28px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: space-between;
+  box-sizing: border-box;
+}
+
+main .jingxuan .imgbox .box {
+  position: relative;
+  box-sizing: border-box;
+}
+
+main .jingxuan .imgbox .box p {
+  color: #e8e8ea;
+  font-size: 14px;
+  position: absolute;
+  left: -57px;
+  bottom: 17px;
+}
+
+main .jingxuan .imgbox .box .p_bottom {
+  position: absolute;
+  left: -206px;
+  bottom: 17px;
+}
+
+main .jingxuan .imgbox .box .p_top {
+  position: absolute;
+  left: -206px;
+  bottom: 17px;
+}
+
+main .jingxuan .imgbox .box .top {
+  position: relative;
+}
+
+main .jingxuan .imgbox .box .top p {
+  position: absolute;
+  left: -57px;
+  bottom: 17px;
+}
+
+main .jingxuan .imgbox .flexbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main .jingxuan .imgbox .box .top {
+  flex-basis: 280px;
+  height: 280px;
+}
+
+main .jingxuan .imgbox .box .bottom {
+  flex-basis: 280px;
+  height: 280px;
+}
+
+main .jingxuan .imgbox .box img {
+  width: 100%;
+  height: 100%;
+}
+
+main .jingxuan .imgbox div:nth-child(1) {
+  flex-basis: 280px;
+  height: 282px;
+}
+
+main .jingxuan .imgbox div:nth-child(2) {
+  flex-basis: 280px;
+  height: 282px;
+}
+
+main .jingxuan .imgbox div:nth-child(3) {
+  flex-basis: 580px;
+  height: 282px;
+}
+
+main .jingxuan .imgbox div:nth-child(4) {
+  flex-basis: 280px;
+  height: 582px;
+}
+
+main .jingxuan .imgbox div:nth-child(5) {
+  flex-basis: 280px;
+  height: 582px;
+}
+
+main .jingxuan .imgbox div:nth-child(6) {
+  flex-basis: 580px;
+  height: 582px;
+}
+
+/* 更多 */
+main .jingxuan .more {
+  width: 280px;
+  height: 54px;
+  line-height: 54px;
+  text-align: center;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #777777;
+  margin: 22px auto 0;
+}
+
+/* 婚礼服务商 */
+main .facilitator {
+  width: 100%;
+  height: 678px;
+
+  box-sizing: border-box;
+  padding-top: 14px;
+}
+
+/* 上边文字 */
+.top {
+  width: 100%;
+  position: relative;
+}
+
+.top .topline {
+  width: 100%;
+  height: 1px;
+  background-color: #dedede;
+}
+
+.top span {
+  width: 242px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-121px, -17px);
+  font-size: 34px;
+  color: #777777;
+  display: block;
+  background-color: #fff;
+  text-align: center;
+}
+
+/* 上边 服务商 */
+main .facilitator .topserver {
+  width: 100%;
+  position: relative;
+}
+
+main .facilitator ul {
+  margin: 48px auto 40px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%) skew(-30deg);
+}
+
+main .facilitator li {
+  width: 74px;
+  float: left;
+  border-right: 2px solid #e4e4e4;
+  text-align: center;
+  color: #ababab;
+  font-size: 14px;
+}
+
+main .facilitator li p {
+  transform: skew(30deg);
+}
+
+main .facilitator .li1 {
+  padding-right: 20px;
+}
+
+main .facilitator li:not(.topserver .li1) {
+  color: #f547a9;
+}
+
+/* 中间盒子 */
+main .facilitator .middlebox {
+  width: 100%;
+  height: 392px;
+  margin-top: 105px;
+  display: flex;
+  justify-content: space-around;
+}
+
+main .facilitator .middlebox .box1 {
+  width: 750px;
+  height: 390px;
+  position: relative;
+}
+
+main .facilitator .middlebox .box1 img {
+  width: 100%;
+  height: 100%;
+}
+
+main .facilitator .middlebox .box2 img {
+  width: 100%;
+  height: 100%;
+}
+
+main .facilitator .middlebox .box1 p {
+  position: absolute;
+  bottom: 17px;
+  left: 14px;
+  font-size: 18px;
+  color: #fff;
+}
+
+main .facilitator .middlebox .box2 {
+  width: 377px;
+  height: 390px;
+}
+
+/* 下边盒子 */
+main .facilitator .bottombox {
+  width: 1160px;
+  height: 84px;
+  background-color: #f686b4;
+  text-align: center;
+  line-height: 84px;
+  font-size: 36px;
+  color: #fff;
+  margin: 43px auto 0;
+  position: relative;
+}
+
+main .facilitator .bottombox span {
+  width: 180px;
+  height: 54px;
+  display: inline-block;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 54px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(378px, -28px);
+}
+
+/* 婚礼灵感板 */
+main .mind {
+  width: 100%;
+  height: 612px;
+  background-color: #f4f4f4;
+  box-sizing: border-box;
+  padding-top: 56px;
+}
+
+/* 上边文字 */
+main .mind .top {
+  width: 100%;
+  text-align: center;
+}
+
+main .mind .top .p1 {
+  color: #777777;
+  font-size: 32px;
+}
+
+main .mind .top .p2 {
+  color: #999999;
+  font-size: 12px;
+  margin-top: 13px;
+}
+
+/* 大图片盒子 */
+main .mind .bigImagebox {
+  width: 100%;
+  height: 323px;
+
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+main .mind .bigImagebox .smallImagebox {
+  width: 282px;
+  height: 323px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main .mind .bigImagebox .smallImagebox .box1 {
+  width: 100%;
+  height: 125px;
+}
+
+main .mind .bigImagebox .smallImagebox .box2 {
+  width: 100%;
+  height: 138px;
+  display: flex;
+  justify-content: space-between;
+}
+
+main .mind .bigImagebox .smallImagebox .box2 .left {
+  width: 138px;
+  height: 138px;
+}
+
+main .mind .bigImagebox .smallImagebox .box2 .right {
+  width: 138px;
+  height: 138px;
+}
+
+main .mind .bigImagebox .smallImagebox .box3 {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 26px;
+}
+
+main .mind .bigImagebox .smallImagebox .box3 p {
+  color: #656565;
+}
+
+/* 婚礼请柬 */
+main .invitation {
+  width: 100%;
+  height: 796px;
+  box-sizing: border-box;
+  padding-top: 56px;
+  background-color: #fff;
+}
+
+/* banner2 */
+main .invitation .banner2 {
+  margin-top: 108px;
+  margin-bottom: 58px;
+  text-align: center;
+}
+
+/* 下面盒子 */
+main .invitation .bottombox {
+  width: 282px;
+  height: 66px;
+  background-color: #f3a9c4;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  line-height: 66px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+/* 底部 */
+footer {
+  width: 100%;
+  height: 554px;
+  background-color: #f4f4f4;
+}
+
+/* 上边 */
+footer .top {
+  width: 100%;
+  height: 385px;
+  box-sizing: border-box;
+  padding-top: 60px;
+}
+
+footer .top ul {
+  float: left;
+  text-align: center;
+}
+
+footer .top .ul1 {
+  margin-left: 15px;
+}
+
+footer .top .ul2 {
+  margin-left: 230px;
+}
+
+footer .top .ul3 {
+  margin-left: 230px;
+
+}
+footer .top .ul4{
+  margin-left: 100px;
+  margin-top: 52px;
+}
+
+footer .top .ul3 .bottom1{
+  box-sizing: border-box;
+  padding-top: 20px;
+}
+
+footer .top li {
+  color: #999999;
+}
+
+footer .top .li1 {
+  margin-bottom: 30px;
+}
+
+footer .top li a {
+  display: block;
+  color: #999999;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+/* 下边 */
+footer .bottom {
+  width: 100%;
+  height: 169px;
+  text-align: center;
+  /* background-color: sienna; */
+}
+
+footer .bottom p {
+  font-size: 14px;
+  color: #cfcfcf;
+}
