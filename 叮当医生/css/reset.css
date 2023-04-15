@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a,
+u,
+s,
+del {
+  text-decoration: none;
+}
+
+em,
+i {
+  font-style: normal;
+}
+
+img {
+  vertical-align: middle;
+}
